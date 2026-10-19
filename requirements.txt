@@ -1,0 +1,11 @@
+# EdgeNLP - Dependencies
+
+# Laptop (Training & Evaluation only):
+scikit-learn>=1.3.0
+
+# Edge Device (Redmi Y2 / Termux):
+# ZERO external dependencies required!
+# Runs entirely on Python 3 Standard Library:
+# - sqlite3 (Database with WAL mode)
+# - http.server (REST API with CORS)
+# - math, re, json, difflib (NLP inference, TF-IDF + Logistic Regression dot product, slot extraction)

@@ -1,0 +1,343 @@
+text,intent
+"what is the latest temperature of machine 2",GET_LATEST
+"current temperature of machine 1",GET_LATEST
+"latest reading of m02",GET_LATEST
+"what is the current humidity of machine 3",GET_LATEST
+"give me latest energy consumption for machine 4",GET_LATEST
+"what is m05 temperature right now",GET_LATEST
+"latest reading for machine 2",GET_LATEST
+"show me the most recent vibration of machine 1",GET_LATEST
+"present status and temperature of m02",GET_LATEST
+"what are the latest readings",GET_LATEST
+"get latest data of machine 3",GET_LATEST
+"what is the current reading of machine 4",GET_LATEST
+"tell me the latest power of machine 5",GET_LATEST
+"fetch latest vibration for machine 2",GET_LATEST
+"most recent data for machine 1",GET_LATEST
+"current status and metrics of machine 3",GET_LATEST
+"what is machine 1 reporting right now",GET_LATEST
+"latest metrics of machine 4",GET_LATEST
+"give me the current energy of machine 2",GET_LATEST
+"what is machine 2's latest temperature",GET_LATEST
+"latest temperature of m02",GET_LATEST
+"what was the average temperature of machine 2 in the last 30 minutes",GET_AVERAGE
+"average temperature of m02",GET_AVERAGE
+"what is the average temperature of m02",GET_AVERAGE
+"average energy consumption of machine 1 today",GET_AVERAGE
+"what is the mean humidity for machine 4",GET_AVERAGE
+"show average vibration of machine 3 in the last hour",GET_AVERAGE
+"average temperature of machine 5 since morning",GET_AVERAGE
+"calculate mean energy in the last 10 minutes for machine 2",GET_AVERAGE
+"what is the average temperature across machines",GET_AVERAGE
+"show the energy consumption of m02 in the last hour",GET_AVERAGE
+"mean humidity of machine 1 in the past 2 hours",GET_AVERAGE
+"average power usage of machine 2",GET_AVERAGE
+"what was the mean temperature of machine 3",GET_AVERAGE
+"calculate average humidity for machine 2",GET_AVERAGE
+"average energy in the last 5 minutes",GET_AVERAGE
+"find the mean vibration of machine 1",GET_AVERAGE
+"average power of machine 5",GET_AVERAGE
+"average temperature of machine 1 over the last hour",GET_AVERAGE
+"mean energy consumed by machine 3",GET_AVERAGE
+"what was the average vibration of machine 2",GET_AVERAGE
+"average metrics for machine 1 in the last 20 minutes",GET_AVERAGE
+"which machine has the highest temperature",GET_MAX
+"what is the maximum energy consumption recorded",GET_MAX
+"peak vibration of machine 3 in the last hour",GET_MAX
+"which machine reached highest humidity",GET_MAX
+"what was the max temperature of machine 2",GET_MAX
+"hottest machine currently",GET_MAX
+"who had the highest energy reading",GET_MAX
+"which machine has peak power",GET_MAX
+"highest temperature recorded today",GET_MAX
+"what is the highest vibration observed",GET_MAX
+"show me the peak temperature across all machines",GET_MAX
+"max power usage today",GET_MAX
+"highest energy reading of machine 1",GET_MAX
+"which unit has the max temperature",GET_MAX
+"maximum humidity in the past hour",GET_MAX
+"find the highest vibration reading",GET_MAX
+"which machine hit peak temperature",GET_MAX
+"max value of temperature today",GET_MAX
+"highest temperature machine",GET_MAX
+"which machine has highest vibration",GET_MAX
+"which machine has the lowest energy consumption",GET_MIN
+"what is the minimum temperature of machine 1",GET_MIN
+"lowest vibration among all machines",GET_MIN
+"minimum humidity recorded in the last 30 minutes",GET_MIN
+"coldest machine right now",GET_MIN
+"what was the lowest energy reading",GET_MIN
+"least power consuming machine",GET_MIN
+"find minimum temperature of machine 4",GET_MIN
+"lowest recorded vibration today",GET_MIN
+"which machine has the minimum power draw",GET_MIN
+"lowest temperature across all units",GET_MIN
+"minimum vibration of machine 2",GET_MIN
+"what is the lowest humidity today",GET_MIN
+"least energy used by machine 3",GET_MIN
+"find the lowest vibration value",GET_MIN
+"minimum reading for machine 5",GET_MIN
+"which unit has minimum temperature",GET_MIN
+"lowest power consumption right now",GET_MIN
+"lowest energy machine",GET_MIN
+"which machine consumes least energy",GET_MIN
+"show machines above 80 degrees",FILTER_DATA
+"show machines above 70 degrees",FILTER_DATA
+"which machines have temperature greater than 80",FILTER_DATA
+"filter machines with vibration over 3",FILTER_DATA
+"show devices exceeding 50 kw energy",FILTER_DATA
+"list machines with humidity below 40",FILTER_DATA
+"which machines are running hotter than 75 degrees",FILTER_DATA
+"machines with energy less than 30 kw",FILTER_DATA
+"show machines with temperature over 80",FILTER_DATA
+"find all machines above threshold",FILTER_DATA
+"which machines have vibration higher than 2",FILTER_DATA
+"machines where temperature is greater than 80",FILTER_DATA
+"filter machines with energy over 60",FILTER_DATA
+"display machines with vibration above 3.5",FILTER_DATA
+"list units with temperature below 40",FILTER_DATA
+"which devices have power greater than 50",FILTER_DATA
+"show machines exceeding 65 degrees",FILTER_DATA
+"filter units where vibration is less than 1",FILTER_DATA
+"machines having temperature higher than 70",FILTER_DATA
+"machines above 80c",FILTER_DATA
+"what is the status of machine 3",GET_STATUS
+"how is machine 2 doing",GET_STATUS
+"check health condition of machine 1",GET_STATUS
+"is machine 4 running or stopped",GET_STATUS
+"show machine 5 operational status",GET_STATUS
+"machine 1 state",GET_STATUS
+"what is the health of machine 2",GET_STATUS
+"overview of all machine statuses",GET_STATUS
+"current state of machine 3",GET_STATUS
+"is machine 5 in normal condition",GET_STATUS
+"what is the operational status of machine 1",GET_STATUS
+"tell me the condition of machine 4",GET_STATUS
+"how are the machines performing",GET_STATUS
+"status check for machine 2",GET_STATUS
+"is machine 3 healthy",GET_STATUS
+"what state is machine 5 in",GET_STATUS
+"machine 4 operational health",GET_STATUS
+"give me the current status of machine 1",GET_STATUS
+"show health of machine 3",GET_STATUS
+"is machine 2 running fine",GET_STATUS
+"show temperature trend of machine 2 for the last hour",GET_TREND
+"temperature trend of machine 1 over time",GET_TREND
+"show vibration history graph for machine 3",GET_TREND
+"energy consumption pattern of machine 4 in the last 30 minutes",GET_TREND
+"is machine 2 temperature rising or falling",GET_TREND
+"show trend of machine 5 humidity",GET_TREND
+"display trend graph for machine 1",GET_TREND
+"historical temperature curve of machine 2",GET_TREND
+"trend analysis for machine 3 power usage",GET_TREND
+"how is machine 4 temperature progressing over time",GET_TREND
+"show energy trend of machine 1",GET_TREND
+"plot temperature trend for machine 3",GET_TREND
+"trend of vibration for machine 2 over the last 2 hours",GET_TREND
+"show humidity history of machine 5",GET_TREND
+"what is the trend for machine 4",GET_TREND
+"machine 1 temperature pattern over time",GET_TREND
+"show trend curve of energy for machine 2",GET_TREND
+"how has machine 3 temperature trended today",GET_TREND
+"display history trend for machine 2",GET_TREND
+"temperature trend m02",GET_TREND
+"production of m03 today",GET_PRODUCTION
+"how many units did m01 produce today",GET_PRODUCTION
+"what is the production output of machine 2",GET_PRODUCTION
+"units produced by m04 today",GET_PRODUCTION
+"show production of machine 5",GET_PRODUCTION
+"how many parts did m02 make today",GET_PRODUCTION
+"production count for machine 3",GET_PRODUCTION
+"total units produced by machine 1",GET_PRODUCTION
+"m03 production count today",GET_PRODUCTION
+"how much output did machine 4 produce",GET_PRODUCTION
+"daily production of machine 2",GET_PRODUCTION
+"production numbers for machine 5 today",GET_PRODUCTION
+"how many items did m06 produce",GET_PRODUCTION
+"what was the output of m07 today",GET_PRODUCTION
+"units made by machine 8",GET_PRODUCTION
+"show me production figures for m01",GET_PRODUCTION
+"how many pieces did machine 3 manufacture",GET_PRODUCTION
+"production volume of machine 2 today",GET_PRODUCTION
+"output of machine 1 today",GET_PRODUCTION
+"production of m01",GET_PRODUCTION
+"which machine produced the most units today",GET_MAX_PRODUCTION
+"highest production machine",GET_MAX_PRODUCTION
+"which machine has highest production",GET_MAX_PRODUCTION
+"what machine produced maximum parts today",GET_MAX_PRODUCTION
+"top producing machine today",GET_MAX_PRODUCTION
+"who made the most units today",GET_MAX_PRODUCTION
+"which unit had maximum production count",GET_MAX_PRODUCTION
+"find the machine with peak output today",GET_MAX_PRODUCTION
+"which machine is producing the most",GET_MAX_PRODUCTION
+"top output machine today",GET_MAX_PRODUCTION
+"highest output recorded today",GET_MAX_PRODUCTION
+"which machine manufactured the most items",GET_MAX_PRODUCTION
+"maximum production machine today",GET_MAX_PRODUCTION
+"who is the highest producing machine",GET_MAX_PRODUCTION
+"which machine made maximum parts",GET_MAX_PRODUCTION
+"peak output machine",GET_MAX_PRODUCTION
+"greatest number of units produced by which machine",GET_MAX_PRODUCTION
+"which machine produced highest units today",GET_MAX_PRODUCTION
+"highest production unit",GET_MAX_PRODUCTION
+"leader in production today",GET_MAX_PRODUCTION
+"how many defective units did m03 produce",GET_DEFECTS
+"defective units of machine 2",GET_DEFECTS
+"how many defects did m01 produce today",GET_DEFECTS
+"number of defective parts for machine 3",GET_DEFECTS
+"defect count for m02",GET_DEFECTS
+"how many bad units did machine 4 make",GET_DEFECTS
+"defects produced by m05",GET_DEFECTS
+"show defective items for machine 1",GET_DEFECTS
+"what is the defect count of machine 3",GET_DEFECTS
+"how many rejected parts from m02",GET_DEFECTS
+"defective pieces made by machine 6",GET_DEFECTS
+"defect numbers for machine 3 today",GET_DEFECTS
+"how many faulty units were produced by m03",GET_DEFECTS
+"total defects on machine 1",GET_DEFECTS
+"show scrap and defective units for m02",GET_DEFECTS
+"defects of machine 4",GET_DEFECTS
+"count of defective parts from m05",GET_DEFECTS
+"how many defects on machine 2 today",GET_DEFECTS
+"defective units count for machine 3",GET_DEFECTS
+"how many defects did m03 have",GET_DEFECTS
+"compare production of m01 and m02",COMPARE_PRODUCTION
+"compare production m01 vs m02",COMPARE_PRODUCTION
+"production comparison of machine 1 and machine 2",COMPARE_PRODUCTION
+"compare output between m03 and m04",COMPARE_PRODUCTION
+"difference in production between machine 1 and machine 2",COMPARE_PRODUCTION
+"how does m01 production compare to m02",COMPARE_PRODUCTION
+"compare units produced by machine 3 and machine 5",COMPARE_PRODUCTION
+"production comparison between m01 and m03",COMPARE_PRODUCTION
+"compare manufacturing output of machine 1 and machine 2",COMPARE_PRODUCTION
+"side by side production comparison of m01 and m02",COMPARE_PRODUCTION
+"contrast production of machine 2 and machine 4",COMPARE_PRODUCTION
+"how do machine 1 and machine 2 compare in production",COMPARE_PRODUCTION
+"compare parts produced by m01 and m02",COMPARE_PRODUCTION
+"compare daily output of m03 and m05",COMPARE_PRODUCTION
+"production of m01 versus m02",COMPARE_PRODUCTION
+"compare production numbers for machine 1 and machine 4",COMPARE_PRODUCTION
+"compare m01 vs m02 production",COMPARE_PRODUCTION
+"which machine produced more m01 or m02",COMPARE_PRODUCTION
+"contrast output between machine 1 and machine 2",COMPARE_PRODUCTION
+"compare units made by machine 2 and machine 3",COMPARE_PRODUCTION
+"compare the temperature of machine 1 and machine 2",COMPARE_SENSOR
+"compare machine 1 and machine 3 energy",COMPARE_SENSOR
+"difference in temperature between machine 4 and machine 5",COMPARE_SENSOR
+"how does machine 2 compare to machine 1 in vibration",COMPARE_SENSOR
+"compare power usage of machine 2 and machine 5",COMPARE_SENSOR
+"contrast machine 3 and machine 4 temperature",COMPARE_SENSOR
+"side by side comparison of machine 1 and machine 2 temperature",COMPARE_SENSOR
+"compare humidity between machine 2 and machine 4",COMPARE_SENSOR
+"comparison between machine 3 and machine 5 temperature",COMPARE_SENSOR
+"compare the energy of machine 2 with machine 4",COMPARE_SENSOR
+"difference between machine 1 and machine 2 temperature",COMPARE_SENSOR
+"compare vibrations of machine 4 and machine 5",COMPARE_SENSOR
+"how do machine 1 and machine 3 compare in heat",COMPARE_SENSOR
+"compare machine 2 against machine 5 energy",COMPARE_SENSOR
+"contrast energy of machine 1 and machine 2",COMPARE_SENSOR
+"side by side sensor comparison between machine 2 and machine 3",COMPARE_SENSOR
+"compare temperature of m1 and m2",COMPARE_SENSOR
+"compare temperature of m01 and m02",COMPARE_SENSOR
+"sensor comparison machine 1 vs machine 2",COMPARE_SENSOR
+"compare vibration between m01 and m02",COMPARE_SENSOR
+"which machines are currently under maintenance",GET_MAINTENANCE_STATUS
+"machines under maintenance",GET_MAINTENANCE_STATUS
+"show machines being repaired",GET_MAINTENANCE_STATUS
+"which machines are undergoing maintenance right now",GET_MAINTENANCE_STATUS
+"list machines currently in maintenance",GET_MAINTENANCE_STATUS
+"any machines in maintenance state",GET_MAINTENANCE_STATUS
+"which units are under maintenance",GET_MAINTENANCE_STATUS
+"machines undergoing service",GET_MAINTENANCE_STATUS
+"show all machines currently under repair",GET_MAINTENANCE_STATUS
+"are any machines under maintenance",GET_MAINTENANCE_STATUS
+"which machines are being serviced right now",GET_MAINTENANCE_STATUS
+"list units under maintenance",GET_MAINTENANCE_STATUS
+"current maintenance status of machines",GET_MAINTENANCE_STATUS
+"which machines have active maintenance",GET_MAINTENANCE_STATUS
+"machines currently undergoing repair",GET_MAINTENANCE_STATUS
+"show machines with ongoing maintenance",GET_MAINTENANCE_STATUS
+"any machine in maintenance today",GET_MAINTENANCE_STATUS
+"which machines are stopped for maintenance",GET_MAINTENANCE_STATUS
+"display machines currently being maintained",GET_MAINTENANCE_STATUS
+"who is under maintenance",GET_MAINTENANCE_STATUS
+"when was m05 last maintained",GET_LAST_MAINTENANCE
+"last maintenance of m05",GET_LAST_MAINTENANCE
+"when was machine 2 last serviced",GET_LAST_MAINTENANCE
+"last maintenance date for machine 3",GET_LAST_MAINTENANCE
+"when did m01 have its last maintenance",GET_LAST_MAINTENANCE
+"when was m02 last repaired",GET_LAST_MAINTENANCE
+"show last maintenance of machine 4",GET_LAST_MAINTENANCE
+"previous maintenance date of m05",GET_LAST_MAINTENANCE
+"when was the last service of machine 1",GET_LAST_MAINTENANCE
+"last maintenance record for m03",GET_LAST_MAINTENANCE
+"when was m04 last inspected",GET_LAST_MAINTENANCE
+"date of last maintenance for machine 5",GET_LAST_MAINTENANCE
+"when was machine 2 serviced last time",GET_LAST_MAINTENANCE
+"last maintenance details of m05",GET_LAST_MAINTENANCE
+"when was machine 1 last maintained",GET_LAST_MAINTENANCE
+"show last service date for m02",GET_LAST_MAINTENANCE
+"when did machine 5 get repaired last",GET_LAST_MAINTENANCE
+"last maintenance performed on m03",GET_LAST_MAINTENANCE
+"when was m06 last maintained",GET_LAST_MAINTENANCE
+"last service date of machine 2",GET_LAST_MAINTENANCE
+"which machine has high temperature and low production",ANOMALY_CORRELATION
+"machine with high temp and low production",ANOMALY_CORRELATION
+"which machines have elevated temperature and low output",ANOMALY_CORRELATION
+"find machines with overheating and poor production",ANOMALY_CORRELATION
+"which machine has high temperature but low units produced",ANOMALY_CORRELATION
+"anomaly detection high heat low output",ANOMALY_CORRELATION
+"correlate high temperature with low production",ANOMALY_CORRELATION
+"which machine is running hot with low manufacturing volume",ANOMALY_CORRELATION
+"high temperature and low output machine",ANOMALY_CORRELATION
+"identify machines with high temp and low production",ANOMALY_CORRELATION
+"which unit has high heat and poor output",ANOMALY_CORRELATION
+"find machine with hot temperature and low production",ANOMALY_CORRELATION
+"which machine exhibits high temperature and low production",ANOMALY_CORRELATION
+"machines with high temperature and low production rate",ANOMALY_CORRELATION
+"high temperature low production units",ANOMALY_CORRELATION
+"which machines have temperature issues and low production",ANOMALY_CORRELATION
+"show machine with high temp and reduced output",ANOMALY_CORRELATION
+"machines suffering high temperature and low output",ANOMALY_CORRELATION
+"find units with high vibration and low production",ANOMALY_CORRELATION
+"which machine has high temperature and low production today",ANOMALY_CORRELATION
+"how many machines are currently in warning status",COUNT_EVENTS
+"count how many machines are in critical state",COUNT_EVENTS
+"how many machines are running",COUNT_EVENTS
+"number of machines in idle state",COUNT_EVENTS
+"count of machines operating normally",COUNT_EVENTS
+"total count of machines in warning",COUNT_EVENTS
+"how many machines are active",COUNT_EVENTS
+"how many units are in normal status",COUNT_EVENTS
+"count active machines",COUNT_EVENTS
+"how many machines are currently working",COUNT_EVENTS
+"how many machines are stopped or idle",COUNT_EVENTS
+"count of warning machines",COUNT_EVENTS
+"number of units in warning mode",COUNT_EVENTS
+"how many machines are installed",COUNT_EVENTS
+"count how many machines exist",COUNT_EVENTS
+"total number of machines",COUNT_EVENTS
+"how many machines on floor a",COUNT_EVENTS
+"count running machines",COUNT_EVENTS
+"how many machines are in maintenance",COUNT_EVENTS
+"number of machines operational",COUNT_EVENTS
+"what is the weather",OUT_OF_SCOPE
+"tell me tomorrow's weather",OUT_OF_SCOPE
+"what is the capital of France",OUT_OF_SCOPE
+"play some music",OUT_OF_SCOPE
+"who is the president",OUT_OF_SCOPE
+"how do I bake a cake",OUT_OF_SCOPE
+"write a poem about flowers",OUT_OF_SCOPE
+"what time is it in Tokyo",OUT_OF_SCOPE
+"translate this sentence to German",OUT_OF_SCOPE
+"book a flight to New York",OUT_OF_SCOPE
+"recommend a good movie",OUT_OF_SCOPE
+"what is the distance to the moon",OUT_OF_SCOPE
+"who won the world cup",OUT_OF_SCOPE
+"give me a recipe for pasta",OUT_OF_SCOPE
+"what is quantum computing",OUT_OF_SCOPE
+"tell me a joke",OUT_OF_SCOPE
+"how is the traffic on highway 101",OUT_OF_SCOPE
+"can you sing a song",OUT_OF_SCOPE
+"what is the price of bitcoin",OUT_OF_SCOPE
+"who wrote Hamlet",OUT_OF_SCOPE
